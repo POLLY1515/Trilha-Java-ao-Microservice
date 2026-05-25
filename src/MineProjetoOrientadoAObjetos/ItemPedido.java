@@ -45,23 +45,7 @@ public class ItemPedido {
 		return produto.getPreco() * this.quantidade;
 	}
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(produto, quantidade);
-	}
-
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		ItemPedido other = (ItemPedido) obj;
-		return Objects.equals(produto, other.produto) && quantidade == other.quantidade;
-	}
+	
 
 
 	@Override

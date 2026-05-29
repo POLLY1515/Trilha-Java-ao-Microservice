@@ -17,7 +17,7 @@ public class ItemPedido {
 
 
 	public ItemPedido() {
-		super();
+		
 	}
 
 

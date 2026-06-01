@@ -28,6 +28,10 @@ public class ItemCarrinho {
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
+	
+	public double subTotal() {
+		return produto.getPreco() * quantidade;
+	}
 
 	@Override
 	public String toString() {

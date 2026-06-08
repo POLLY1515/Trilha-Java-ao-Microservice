@@ -1,4 +1,4 @@
-package ColecoesAula4;
+package Colecoes;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 
-public class Exercicio1 {
+public class Exercicio4 {
 
 	public static void main(String[] args) {
 

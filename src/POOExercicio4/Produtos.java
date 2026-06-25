@@ -47,6 +47,13 @@ public class Produtos implements Descontavel {
 
 
 
+	@Override
+	public String toString() {
+		return "Produtos [nome=" + nome + ", preco=" + preco + "]";
+	}
+
+
+
 
 		
 	}

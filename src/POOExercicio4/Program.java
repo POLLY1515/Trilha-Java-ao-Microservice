@@ -16,7 +16,7 @@ public class Program {
 		produto.add(new Produtos("Microondas", 700.97));
 		produto.add(new Produtos("Secador Mondial", 345.90));
 		produto.add(new Produtos("Secador phillco", 567.90));
-		produto.add(new Produtos("Prancah ceramica Mondial", 189.90));
+		produto.add(new Produtos("Prancha ceramica Mondial", 189.90));
 		produto.add(new Produtos("Prancha Taiff titanium", 489.90));
 		produto.add(new Produtos("Prancha ceramica phillco", 899.90));
 		produto.add(new Produtos("Sanduicheira Mondial", 49.90));
@@ -37,7 +37,9 @@ public class Program {
 
 		}
 		
-		
+		produto.stream()
+		.filter(prod -> prod.getPreco() < 120.00)
+		.forEach(System.out::println);
 	}
 
 }
